@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Editor } from './tinymce/js/tinymce/tinymce.min.js';
+import { Editor } from 'tinymce';
 
 const App = () => {
   const [content, setContent] = useState('');
